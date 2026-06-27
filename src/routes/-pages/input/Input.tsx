@@ -114,6 +114,8 @@ export default function Input(): ReactNode {
                             append({ text: todoItem, checked : false });
                             
                             resetField('todoItem');
+
+                            setTodoItem('');
                         }}
                     >
                         <PlusIcon color="white" />
