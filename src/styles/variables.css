@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --clr-body : white;
+    --clr-neutral-300 : #333333;
+    --clr-neutral-400 : #444444;
+    --clr-neutral-600 : #666666;
+    --clr-white : white;
+    --clr-black : black;
+
+    --ff : Inter;
+    --fw-semi-bold : 600;
+    --fw-medium : 500;
+    --fw-regular : 400;
+
+    --fs-xl: 40px;
+    --fs-lg: 20px;
+    --fs-sm: 14px;
+}

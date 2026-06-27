@@ -1,0 +1,40 @@
+@import url('./variables.css');
+
+h1 {
+    font-weight: var(--fw-semi-bold);
+    font-size: clamp(24px, 13vw, var(--fs-xl));
+    color: var(--clr-neutral-300);
+    text-align: left;
+}
+
+h1 span {
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+
+label {
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-semi-bold);
+    color: var(--clr-neutral-300);
+}
+
+q {
+    font-style: italic;
+    font-size: var(--fs-lg);
+    color: var(--clr-neutral-600);
+}
+
+i {
+    font-style: italic;
+    font-size: var(--fs-sm);
+    color: var(--clr-neutral-300);
+    display: inline-block;
+    margin-top: 10px;
+}
+
+small {
+    font-size: var(--fs-sm);
+    color: red;
+    display: inline-block;
+    margin-top: 4px;
+}
